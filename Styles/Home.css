@@ -15,7 +15,7 @@
     color: var(--color-neutra-1);
 }
 .title span{
-    color: var(--color-primary-1);
+    color: var(--color-primary-3);
 }
 .descricao{
     font-size: 1.2rem;
@@ -23,6 +23,9 @@
 .cta-buttons{
     display: flex;
     gap: 24px;
+}
+.cta-buttons .btn-padrao{
+    color: var(--color-neutra-0);
 }
 .cta-buttons a{
     color: var(--color-neutra-1);
@@ -48,7 +51,7 @@
     height: 18rem;
 }
 .shape{
-    background-color: var(--color-neutra-1);
+    background-color: var(--color-neutra-0);
     height: 80%;
     width: 35%;
     position: absolute;
@@ -56,6 +59,7 @@
     top: 0;
     right: 10%;
     z-index: 1;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width:1170px ) {
     .shape{

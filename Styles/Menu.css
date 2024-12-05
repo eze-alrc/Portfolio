@@ -12,9 +12,15 @@
     align-items: center;
     justify-content: space-between;
 }
+.nav-bar .btn-padrao{
+    color: white;
+}
 .nav-logo{
-    color: var(--color-neutra-0);
+    color: var(--color-primary-3);
     font-size: 24px;
+}
+.nav-logo span{
+    color: var(--color-neutra-0);
 }
 .nav-list{
     display: flex;
@@ -23,13 +29,12 @@
 }
 .nav-link{
     text-decoration: none;
-    color: #ffffff;
+    color: var(--color-primary-3);
     font-weight: 600;
 }
-.nav-item.active a{
-    color: var(--color-primary-1);
-    border-bottom: 3px solid var(--color-primary-1);
-
+.nav-item a:hover{
+    color: var(--color-primary-2);
+    border-bottom: 3px solid var(--color-primary-2);
 }
 .mobile_btn, .mobile_menu{
     display: none;    
