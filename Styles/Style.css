@@ -9,13 +9,15 @@
     --color-primary-3: #0048ff;
     --color-neutra-0: #fff;
     --color-neutra-1: #1d1d1d;
-    --color-neutra-2: grey;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: aliceblue;
 }
 section{
     padding: 28px 8%;
@@ -42,6 +44,7 @@ a{
 .social-media-buttons{
     display: flex;
     gap: 18px;
+    /* justify-content: ; */
 }
 .social-media-buttons a{
     display: flex;
