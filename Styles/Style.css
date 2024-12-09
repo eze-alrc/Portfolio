@@ -2,6 +2,7 @@
 
 @import url('menu.css');
 @import url('home.css');
+@import url('especialidades.css');
 
 :root{
     --color-primary-1: #ff0000;
