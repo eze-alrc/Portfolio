@@ -21,6 +21,7 @@
     font-size: 1.2rem;
 }
 .cta-buttons{
+    align-items: center;
     display: flex;
     gap: 24px;
 }
