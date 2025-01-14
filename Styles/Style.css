@@ -4,6 +4,7 @@
 @import url('Home.css');
 @import url('Especialidades.css');
 @import url('ProjetosRecentes.css');
+@import url('SobreMim.css');
 
 :root{
     --color-primary-1: #ff0000;
@@ -46,7 +47,6 @@ a{
 .social-media-buttons{
     display: flex;
     gap: 18px;
-    /* justify-content: ; */
 }
 .social-media-buttons a{
     display: flex;
@@ -68,4 +68,11 @@ a{
 .section-title{
     font-size: 2.5rem;
     color: var(--color-neutra-1);
+}
+footer{
+    background-color: #000000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
 }
