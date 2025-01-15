@@ -5,6 +5,7 @@
 @import url('Especialidades.css');
 @import url('ProjetosRecentes.css');
 @import url('SobreMim.css');
+@import url('Rodape.css');
 
 :root{
     --color-primary-1: #ff0000;
@@ -68,11 +69,4 @@ a{
 .section-title{
     font-size: 2.5rem;
     color: var(--color-neutra-1);
-}
-footer{
-    background-color: #000000;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-	margin-top: 50px;
 }
