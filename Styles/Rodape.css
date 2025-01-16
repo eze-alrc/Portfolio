@@ -5,3 +5,18 @@
     text-align: center;
     margin-top: 50px;
 }
+.cta-buttons-rodape{
+    justify-content: center;
+}
+.cta-buttons-rodape{
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+.cta-buttons-rodape .btn-padrao{
+    color: var(--color-neutra-0);
+    
+}
+.cta-buttons-rodape a{
+    color: var(--color-neutra-1);
+}
