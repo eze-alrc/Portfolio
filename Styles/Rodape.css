@@ -3,9 +3,10 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .cta-buttons-rodape{
+    margin-top: 8px;
     justify-content: center;
 }
 .cta-buttons-rodape{
@@ -19,4 +20,9 @@
 }
 .cta-buttons-rodape a{
     color: var(--color-neutra-1);
+}
+footer .email p a{
+    color: var(--color-neutra-0);
+    text-decoration: none;
+    text-align: center;
 }
