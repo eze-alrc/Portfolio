@@ -17,7 +17,7 @@
 }
 .nav-logo{
     color: var(--color-primary-3);
-    font-size: 24px;
+    font-size: 25px;
 }
 .nav-logo span{
     color: var(--color-neutra-0);
@@ -31,6 +31,11 @@
     text-decoration: none;
     color: var(--color-neutra-0);
     font-weight: 600;
+    font-size: 15px;
+}
+.nav-link:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 .nav-item a:hover{
     color: var(--color-primary-2);

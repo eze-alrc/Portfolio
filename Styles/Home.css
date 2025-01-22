@@ -32,6 +32,10 @@
 .cta-buttons a{
     color: var(--color-neutra-1);
 }
+.btn-padrao:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
 #phone_btn{
     display: flex;
     gap: 8px;

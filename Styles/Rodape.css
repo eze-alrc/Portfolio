@@ -16,7 +16,6 @@
 }
 .cta-buttons-rodape .btn-padrao{
     color: var(--color-neutra-0);
-    
 }
 .cta-buttons-rodape a{
     color: var(--color-neutra-1);
@@ -25,4 +24,8 @@ footer .email p a{
     color: var(--color-neutra-0);
     text-decoration: none;
     text-align: center;
+}
+.social-media-buttons a:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
 }
